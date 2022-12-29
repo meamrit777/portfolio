@@ -31,10 +31,10 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.jpg);
+  background-image: url(../src/assets/blueBG.jpg);
 }
 
-/* --general styles-- */
+/* ===general styles=== */
 
 .container {
   width: var(--container-width-lg);
@@ -55,6 +55,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -102,21 +103,22 @@ imb {
   object-fit: cover;
 }
 
-/* --media queries-- */
-@media screen and(max-width:1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
+/* ========media queries (medium devices)======== */
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 68vh;
   }
 }
 
-@media screen and(max-width:600px) {
+/* ========media queries (small devices)======== */
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
   section > h2 {
     margin-top: 6rem;
+  }
+  .btn {
+    padding: 8px 8px !important;
   }
 }
