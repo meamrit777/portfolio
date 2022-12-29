@@ -8,23 +8,39 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#" className={activeNav === "#" ? "active" : ""}>
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
-        onClick={setActiveNav === "#about"}
+        onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
       </a>
-      <a href="#experience">
+      <a
+        onClick={() => setActiveNav("#experience")}
+        href="#experience"
+        className={activeNav === "#experience" ? "active" : ""}
+      >
         <BiBook />
       </a>
-      <a href="#services">
+      <a
+        onClick={() => setActiveNav("#services")}
+        href="#services"
+        className={activeNav === "#services" ? "active" : ""}
+      >
         <RiServiceLine />
       </a>
-      <a href="#contact">
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <BiMessageSquareDetail />
       </a>
     </nav>
