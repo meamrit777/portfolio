@@ -1,0 +1,11 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.experience__container > div {
+  background: var(--color-bg-varient);
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
