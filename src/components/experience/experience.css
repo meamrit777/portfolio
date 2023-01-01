@@ -57,7 +57,7 @@
 /* =======MEDIA QUERIES (SMALL DEVICES)======== */
 @media screen and (max-width: 600px) {
   .experience__section {
-    margin-top: 48rem;
+    margin-top: 35rem;
   }
   .experience__container {
     gap: 1rem;

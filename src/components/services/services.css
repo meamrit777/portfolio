@@ -54,6 +54,9 @@
 
 /* =======MEDIA QUERIES (SMALL DEVICES)======== */
 @media screen and (max-width: 600px) {
+  .services__section {
+    margin-top: 20rem;
+  }
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;

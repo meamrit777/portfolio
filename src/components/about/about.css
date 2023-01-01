@@ -24,7 +24,6 @@
 }
 .about__me-image img {
   width: 100%;
-  max-height: 100%;
 }
 .about__me-image:hover {
   transform: rotate(0);

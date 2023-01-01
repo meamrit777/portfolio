@@ -41,8 +41,7 @@ const About = () => {
           <p>
             hello hello hello hello hello hello hello hello hello hello hello
             hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
+            hello hello hello hello hello hello hello hello  hello hello hello hello hello hello hello hello
             hello hello hello hello hello hello hello hello hello hello hello
             hello hello hello hello hello hello hello hello hello hello hello
           </p>
